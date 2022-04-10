@@ -3,8 +3,6 @@ layout: page
 ---
 
 
-
-
 <div class="row">
 {% for post in site.posts %}
   <div class="col-md-3 card-wrapper">
