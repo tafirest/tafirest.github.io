@@ -5,7 +5,7 @@ layout: wrapper
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
       <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-      <p>{{ page.description }}</p>
+      <p class="post-title p-name" itemprop="name headline">{{ page.subtitle | escape }}</p>
       <p class="post-meta">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -25,13 +25,9 @@ layout: wrapper
               {%- if forloop.last == false %}, {% endif -%}
           {% endfor %}
         {%- endif -%}</p>
-        <!--<img src="{{site_url}}/assets/images/{{page.picture}}" alt="{{page.title}}" class="post-picture">
-        -->
-        <hr>
     </header>
   
     <div class="post-content e-content" itemprop="articleBody">
- 
       <div class="row">
         <div class="col-2"></div>
         <div class="col-8 blog-post">
