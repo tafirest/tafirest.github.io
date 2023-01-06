@@ -3,7 +3,7 @@ layout: post
 title: Intelligence
 description: There is something fascinating about intelligence. Don't you think?
 author: Mounsif Chetitah
-picture: intelligence.png
+picture: intelligence.jpeg
 ---
 
 
