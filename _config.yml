@@ -23,7 +23,7 @@ email: hello@tafirest.com
 description: >- # this means to ignore newlines until "baseurl:"
   Technology is a vain imitation of nature. Here, we acknowledge that fact. We have a holistic approach to software design.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "tafirest.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tafirest.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tafirest
 github_username:  tafirest
 youtube_username: tafirest
