@@ -2,6 +2,16 @@
 ---
 
 @import "main";
+@import "sass-code-highlight-master/monokai";
+
+div.highlighter-rouge {
+    margin-bottom: 15px;
+}
+
+div.highlight {
+    padding: 20px;
+    border-radius: 4px;
+}
 
 img#logo {
     width: 230px;
